@@ -3,7 +3,7 @@
 Este repositorio contiene la implementación de un autoencoder basado en arquitectura U-Net con conexiones residuales (skip connections) para la reconstrucción de imágenes RGB de 224×224 píxeles. El proyecto incluye tanto un modelo clásico básico como una versión avanzada U-Net que incorpora una función de pérdida híbrida combinando MSE y SSIM.
 
 ## 📋 Contenido del Repositorio
-
+- **`Papper_Autoencoder.pdf`**: Explicación a detalle sobre los modelos realizados.
 - **`EmbeddingConv.ipynb`**: Notebook principal que contiene la implementación completa del autoencoder U-Net, incluyendo el entrenamiento, evaluación y visualización de resultados.
 - **`Embeddingsautoencoders.ipynb`**: Notebook con la implementación del autoencoder clásico (modelo base para comparación).
 - **`Queries.py`**: Script de línea de comandos para realizar inferencia con los modelos entrenados, soportando tanto el modelo clásico como el U-Net.
